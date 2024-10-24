@@ -1,0 +1,365 @@
+.tlheading {
+    color: white;
+    font-size: 25px;
+    font-family: 'Flairdisplay', serif;
+    text-decoration:none;
+}
+
+.txtcnts{
+    margin-left: 10%;
+}
+
+header{
+    margin: -10px;
+}
+
+.moctr{
+    margin-left: -10px;
+    background-color: #0b2c3d;
+}
+
+body{
+    background-color: white;
+}
+
+.mmainbg{
+    margin-top: -16px;
+    margin-left: -10px;
+    background-image: url(./dbg.jpg);
+    height: 60vh;
+}
+
+.newdiv {
+    margin-top: 20%;
+    translate: 0 -50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headerdiv{
+    display: grid;
+    background-color: rgb(11, 44, 61);
+    grid-template-columns: 1fr 1fr 6fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+
+
+.addpy{
+    background-color: #dab36a;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.addpy:hover{
+    background-color: #f4b237;
+    cursor:pointer;
+}
+
+.samplebox {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 15px;
+    color: white;
+    font-family: 'Flairdisplay', serif;
+    font-weight: 100;
+}
+
+.searchicon {
+    width: 5%;
+    padding-left: 15px;
+}
+
+.addicon {
+    width: 40%;
+}
+
+.samplebox2 {
+
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.main2{
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+.tl2{
+    font-size: 50px;
+    color: #dab36a;
+}
+  
+.hd2{
+color: #0b2c3d;
+font-family: 'Flairdisplay', serif;
+margin-top: -10px;
+}
+
+.card{
+background-color: rgb(240, 240, 240);
+border: 0.2px solid black;
+overflow: hidden;
+text-align: left;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+border-radius: 8px;
+}
+
+
+.cardimgs {
+width: 300px;
+height: 200px;
+object-fit: cover;
+object-position: 0px -100px;
+padding-left: -50px;
+margin-left: -20px;
+margin-right: -20px;
+}
+
+.cards{
+padding-top: 50px;
+justify-content: center;
+gap: 20px;
+
+display: flex;
+}
+
+.fr{
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.tl{
+    color: white;
+    font-size:20px;
+}
+.card:hover{
+animation: slideup 0.5s both;
+}
+
+.card:not(:hover){
+animation: slideup2 0.5s both;
+}
+
+
+@keyframes slideup {
+from{
+    margin-top: 0px;
+}
+to{
+    margin-top: -20px;
+}
+}
+@keyframes slideup2 {
+from{
+    margin-top: -20px;
+}
+to{
+    margin-top: 0px;
+}
+}
+
+
+.main2{
+text-align: center;
+padding-top: 50px;
+}
+
+.tl2{
+    color: #dab36a;
+}
+
+.hd2{
+    color: #0b2c3d;
+    font-family: 'Flairdisplay', serif;
+    margin-top: -10px;
+}
+
+.card{
+    background-color: rgb(240, 240, 240);
+    border: 0.2px solid black;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+
+.cardimgs {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px -100px;
+    padding-left: -50px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.cards{
+    padding-top: 50px;
+    justify-content: center;
+    gap: 20px;
+    
+    display: flex;
+}
+
+.card:hover{
+    animation: slideup 0.5s both;
+}
+
+.card:not(:hover){
+    animation: slideup2 0.5s both;
+}
+
+
+@keyframes slideup {
+    from{
+        margin-top: 0px;
+    }
+    to{
+        margin-top: -20px;
+    }
+}
+@keyframes slideup2 {
+    from{
+        margin-top: -20px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}
+
+.maincnt4{
+    padding-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.cnts4{
+    
+    width:65%;
+}
+
+.hd4{
+    color: rgb(11, 44, 61);
+    font-family: 'Flairdisplay', serif;
+}
+
+.row1{
+    padding-top: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.oneft{
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.abtimg{
+    width: 90%;
+}
+
+.abhd{
+    font-size: 30px;
+    color: #0b2c3d;
+}
+
+.abct{
+
+}
+
+
+.card2:hover{
+    animation: slideup3 .5 both;
+}
+
+.cnts2{
+    text-align: left;
+}
+
+.card2{
+    background-color: rgb(240, 240, 240);
+    border: 0.2px solid black;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+@keyframes slideup3 {
+    from{
+        margin-top: -15px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}
+
+.footer{
+    background-color: #0b2c3d;
+    padding-bottom: 100px;
+}
+
+.fhd{
+    color: white;
+    font-family: 'Flairdisplay', serif;
+    
+}
+
+
+.textcont{
+    margin-top: 50px;
+    padding-top: 100px;
+    margin-left: 200px;
+}
+
+.fimg{
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 420px;
+    width: 1100px;
+}
+
+.inph{
+    border: #dab36a 2px solid;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.glbtn{
+    height: 45px;
+    border-radius: 5px;
+    background-color: #dab36a;
+    color: white;
+}
+
+.inp{
+    background-color: rgba(0,0,0,0);
+    
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+}
