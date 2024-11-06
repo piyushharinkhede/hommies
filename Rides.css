@@ -3,6 +3,7 @@
   min-height: 90vh;
   height: fit-content;
   position: relative; /* Required for proper positioning */
+  background-image: url(img1.jpeg);
 }
 
 .main2{
